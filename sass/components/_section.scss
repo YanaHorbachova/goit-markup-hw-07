@@ -1,5 +1,7 @@
-/* SECTION */
-.section-title {
+.section {
+  padding-top: 94px;
+
+  &-title {
     margin-top: 0px;
     margin-bottom: 50px;
     color: $title-text-collor;
@@ -7,11 +9,9 @@
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-   }
-  .section {
-    padding-top: 94px;
-     /* background-color: teal; */
   }
-  .box {
-    padding-bottom: 94px;
-  }
+}
+
+.box {
+  padding-bottom: 94px;
+}
